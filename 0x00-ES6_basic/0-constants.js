@@ -1,6 +1,7 @@
 #!/usr/bin/node
 export function taskFirst() {
-	const task = 'I prefer const when i can.';  
+	const task = 'I prefer const when i can.';
+	return task; 
 }
 export function getLast() {
 	return ' is okay';
