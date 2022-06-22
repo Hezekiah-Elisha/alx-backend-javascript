@@ -9,6 +9,11 @@ export interface Teacher {
 export interface Directors extends Teacher {
   numberOfReports: number;
 }
+
+export function printTeacher(firstName: string, lastName:string):string {
+  return `${firstName.slice(0, 1)}. ${lastName}`;
+}
+
 const teacher3: Teacher = {
     firstName: 'John',
     fullTimeEmployee: false,
@@ -26,3 +31,5 @@ const director1: Directors = {
   numberOfReports: 17,
 };
 console.log(director1);
+
+console.log(printTeacher("John", "Doe"));
