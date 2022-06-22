@@ -20,10 +20,6 @@ const studentsList: Array<Student> = [
     student1,
     student2,
 ]
-const studentsList: Array<Student> = [
-  studentA,
-  studentB,
-];
 const styleSheet = `
   html {
     margin: 0;
